@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+<title>My Life||Blog post</title>
+
+<link rel="stylesheet" href="blogpost.css">
+
+
+<div id="header">
+<center><h1> My Life||Blog post </h1></center>
+</div>
+
+<div id="navigation">
+<a href="Blog.html">Home</a> | <a href="My Life Blog post.html"> About The Author </a>| <a href="Contact.html">CONTACT</a>
+<center><h1>About The Author<h1><center>
+</div>
+
+<div id="content">
+<br>
+<br>
+<br>
+<H3><b>Let me Introduce myself: My name is Zandro Lance. I was born on 05 August 2000</b></h3> 
+<br>
+<br>
+<br>
+<img src= "zandro.jpg" align="left" width="800" height="700">
+
+<br>
+<br>
+<br>
+<h1> I was born in Batangas City</h1>
+<h2>Lives In Batangas City </h2>
+<ul>
+<li> 2020 Graduated from Lyceum of the Philippines University - Batangas (Senior High School)</li>
+<li> Member of CY'A Batangas Chapter (Not Active)</li>
+<li> Member Of Boy Scout Of the Philippines (2014-2016)</li>
+<li> 2017 Graduated from Libjo National High School (Junior High School)</li>
+<li> 2013 Graduated from Saint Vincent Institute of Arts and Sciences (Elementary School)</li>
+<li> I love to listen music</li>
+<li> I'm shy and an Introvert</li>
+</ul>
+<br>
+<br>
+<br>
+<img src= "bikes.jpg" align="left" width="800" height="700">
+<h3>I love Big Bikes </h3>
+<br>
+<br>
+<br>
+</div>
+
+
+<div id="rightpanel">
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 4 seconds
+}
+</script>
+
+</div>
+
+
+
+
+
+<div id="footer">
+<h1><center>My Life||Blog post</h1></center>
+</div>
+
+
+
+</body>
+</html>

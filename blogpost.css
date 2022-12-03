@@ -1,0 +1,52 @@
+body {
+  background-color: lightblue;
+}
+
+font-family: century gothic,helvetica,sans-serif;
+	font-size: 90%;
+	background-image: linear-gradient(to right, Beige , Cornsilk);}
+
+p {font-family:century gothic;
+	font-size:1vw;}
+
+#header{margin-center: 6px;
+        padding: 6px;
+        border: 1px solid black;
+        background-color: #6666ff;
+        width: 1558px;
+	color: solid black;}
+	
+
+	.clearfix {overflow: auto;}
+
+.logo {float: left;
+	padding: 5px;
+	margin-left: 10px;
+	margin-top: 30px;}
+
+.para{color: gold;
+	font-family: century gothic;
+	font-size: 5vw;}
+
+.bar {padding:1px 38px;
+	float:left;
+	width:auto;
+	border:none;
+	display:block;
+	outline:0;
+	margin-left:100px;}
+
+.bar:hover{background-color:yellow;}
+
+.content {text-align: justify;
+	text-justify: inter-word;}
+
+#header {width:99%;}
+
+#navigation {width: 100%;
+	text-align:right;
+	height:45px;
+	background-color: aquamarine;}
+
+#content { margin-left:167px;
+	width: 50%;}

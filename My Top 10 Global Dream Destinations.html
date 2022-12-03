@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+<title>My Life||Blog post</title>
+
+<link rel="stylesheet" href="blogpost.css">
+
+
+<div id="header">
+<center><h1> My Life||Blog post </h1></center>
+</div>
+
+<div id="navigation">
+<a href="Blog.html">Home</a> | <a href="My Life Blog post.html"> About The Author </a>| <a href="Contact.html">CONTACT</a>
+<center><h1>Dream Destinations<h1><center>
+</div>
+
+<div id="content">
+<br>
+<br>
+<br>
+<img src= "greece.jpg" align="left" width="900" height="400">
+<b>1.)<u>Greece</b></u>
+<p><b>My Top dream destination for Incredible beaches and gorgeous architecture Greece has so much to offer. </b></p>
+<br>
+<br>
+<br>
+<img src= "southkorea.jpg" align="left" width="900" height="400"><b>
+<b>2.)<u>Seoul,South Korea<b></u>
+<p><b>Korean food is divine I want to try their food and also their culture. South Korea has so much to offer.</b></p>
+<br>
+<br>
+<br>
+<img src= "maldives.jpg" align="left" width="900" height="400">
+<b>3.)<u>Maldives<b></u>
+<p><b>Not all of my dream destinations focus on hardcore activities. Some like the Maldives are more of a decadent destination full of luxury and relaxation.  Overwater bungalows, numerous snorkeling sites, and incredible beaches put the islands of the Maldives on my list.</b></p>
+<br>
+<br>
+<br>
+<img src= "canada.jpg" align="left" width="900" height="400">
+<b>4.)<u>Canada<b></u>
+<p><b>Many places in Canada are on my wish list, but the beauty of Banff’s mountains call me.  Hikes surrounded by bright blue lakes abound in this paradise.</b></p>
+<br>
+<br>
+<br>
+<img src= "alaska.jpg" align="left" width="900" height="400">
+<b>5.)<u>Alaska<b></u>
+<p><b>Another natural beauty on my wish list. Epic landscapes, tons of mountains, and glaciers to hike to.</b></p>
+<br>
+<br>
+<br>
+<img src= "hawaii.jpg" align="left" width="900" height="400">
+<b>6.)<u>Hawaii<b></u>
+<p><b>One of my dream destinations for incredible beaches, lush tropical forests, and picture-perfect waterfalls, chasing waterfalls, epic hiking, and seeking.</p>
+<br>
+<br>
+<br>
+<img src= "japan.jpg" align="left" width="900" height="400">
+<b>7.)<u>Japan<b></u>
+<p><b>The culture, landscapes, and beauty of Japan lure calls to me.  The sushi seals the deal though.</b></p>
+<br>
+<br>
+<br>
+<img src= "France.jpg" align="left" width="900" height="400">
+<b>8.)<u>France-The Pyreness<b></u>
+<p><b>Most people think of Paris when you say France, but I think of the beautiful mountains and wildlife of the French Pyrenees.</b></p>
+<br>
+<br>
+<br>
+<img src= "hongkong.jpg" align="left" width="900" height="400">
+<b>9.)<u>Hong Kong<b></u>
+<p><b>It's the city of skyscrapers. The best part about traveling to Hong Kong with your family is that Hong Kong is home to the famous Disneyland Park and Ocean Park.</b></p>
+<br>
+<br>
+<br>
+<img src= "England.jpg" align="left" width="900" height="400">
+<b>10.)<u>England<b></u>
+<p><b>London is tops for both historical architecture and current trends in fashion.  I would be very excited to finally see Banksy street art!</b></p>
+<br>
+<br>
+<br>
+</div>
+
+
+<div id="rightpanel">
+<br>
+<br>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 4 seconds
+}
+</script>
+
+</div>
+
+
+
+
+
+<div id="footer">
+<h1><center>My Life||Blog post</h1></center>
+</div>
+
+
+
+</body>
+</html>
